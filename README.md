@@ -18,6 +18,7 @@ It is possible to change the username and the password:
 ```
 weaklinuxuser_user: "john"
 weaklinuxuser_pass: "rambo"
+weaklinuxuser_sudo: True
 ```
 
 Dependencies
