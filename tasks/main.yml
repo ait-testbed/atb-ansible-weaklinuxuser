@@ -21,3 +21,4 @@
     owner: root
     group: root
     mode: "644"
+  when: weaklinuxuser_sudo
