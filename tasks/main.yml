@@ -12,6 +12,7 @@
     name: "{{weaklinuxuser_user}}"
     password: "{{ weaklinuxuser_pass | password_hash('sha512', 'saltysalt')}}"
     shell: /bin/bash
+    groups: "{{weaklinuxuser_groups}}"
     create_home: true
 
 - name: Create passwordless sudo
