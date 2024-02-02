@@ -19,6 +19,7 @@ It is possible to change the username and the password:
 weaklinuxuser_user: "john"
 weaklinuxuser_pass: "rambo"
 weaklinuxuser_sudo: True
+weaklinuxuser_groups: []
 ```
 
 Dependencies
@@ -36,6 +37,8 @@ Example Playbook
          - role: weaklinuxuser
            vars:
              weaklinuxuser_pass: "john123"
+             weaklinuxuser_groups:
+               - sudo
 ```
 
 License
